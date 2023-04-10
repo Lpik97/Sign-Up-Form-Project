@@ -6,9 +6,11 @@ body {
 }
 
 .banner {
-    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 35%;
+    height: 100%;
+    background-image: url(maxim-tolchinskiy-Oe1MemZ3rWI-unsplash.jpg);
+    background-size: cover;
 }
-
