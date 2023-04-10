@@ -4,3 +4,11 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.banner {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
