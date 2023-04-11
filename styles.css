@@ -58,13 +58,16 @@ body {
 }
 
 .page-text {
-    font: normal 700 2rem 'Sarala';
     width: 70%;
+    font: normal 700 2rem 'Sarala';
 }
 
 .page-text-2 {
     position: absolute;
     top: 35vh;
     font: normal 700 2rem 'Sarala';
-    width: 75%;
+}
+
+.form-title {
+    font: normal 500 1.5rem 'Sarala';
 }
