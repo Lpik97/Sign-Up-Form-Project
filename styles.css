@@ -68,6 +68,12 @@ body {
     font: normal 700 2rem 'Sarala';
 }
 
+form {
+    font: normal 600 1rem 'Sarala';
+    color: rgb(98, 98, 98);
+}
+
 .form-title {
-    font: normal 500 1.5rem 'Sarala';
+    font: normal 600 1.5rem 'Sarala';
+    color: black;
 }
