@@ -16,11 +16,13 @@ body {
     background-size: cover;
 }
 
-.logo {
-    width: 15%;
-    background-color: rgba(0, 0, 0, .5);
-}
 
-.logo-text {
-    
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, .5);
 }
