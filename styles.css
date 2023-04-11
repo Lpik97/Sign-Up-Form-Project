@@ -48,3 +48,9 @@ body {
     bottom: 0;
     color: white;
 }
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
