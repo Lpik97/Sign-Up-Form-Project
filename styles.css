@@ -52,5 +52,12 @@ body {
 .page {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    height: 50%;
+    padding: 0 2.5vw;
+}
+
+.page-text {
+    font: normal 700 2rem 'Sarala';
+    width: 75%;
 }
