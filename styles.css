@@ -59,5 +59,12 @@ body {
 
 .page-text {
     font: normal 700 2rem 'Sarala';
+    width: 70%;
+}
+
+.page-text-2 {
+    position: absolute;
+    top: 35vh;
+    font: normal 700 2rem 'Sarala';
     width: 75%;
 }
