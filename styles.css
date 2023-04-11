@@ -39,3 +39,9 @@ body {
     font: normal 900 2rem 'Sarala';
     color: white;
 }
+
+.banner-footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
