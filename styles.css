@@ -86,3 +86,14 @@ form {
     font: normal 600 1.5rem 'Sarala';
     color: black;
 }
+
+.form-button {
+    position: absolute;
+    padding: .5vh 1.2vw;
+    top: 67.5vh;
+    font: normal 600 1.5rem 'Sarala';
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(177, 124, 92);
+}
