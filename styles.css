@@ -97,3 +97,8 @@ form {
     color: white;
     background-color: rgb(177, 124, 92);
 }
+
+.last-text {
+    font: normal 500 1.5rem 'Sarala';
+    color: rgb(71, 71, 71);  
+}
