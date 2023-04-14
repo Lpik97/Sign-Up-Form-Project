@@ -91,7 +91,6 @@ form {
     font: normal 600 2rem 'Sarala';
     color: rgb(71, 71, 71);
 }
-
 .form-button {
     width: 15vw;
     padding: 1vh;
@@ -108,7 +107,6 @@ form {
 }
 
 .page-text, .page-text-2, .form-title,
-.names, .email-and-phone-number, 
-.passwords, .form-button, .last-text {
+.input, .form-button, .last-text {
     margin-left: 3vw;
 }
