@@ -85,6 +85,7 @@ form {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     row-gap: 2vh;
+    padding: 4vh 0;
     font: normal 600 1rem 'Sarala';
     color: rgb(98, 98, 98);
     border: 1px inset black;
@@ -99,6 +100,13 @@ form {
 .input {
     display: flex;
     flex-direction: column;
+    gap: .5vh;
+}
+
+input {
+    height: 3vh;
+    width: 15vw;
+    border: 1px solid rgb(215, 215, 215);
 }
 
 .form-button {
