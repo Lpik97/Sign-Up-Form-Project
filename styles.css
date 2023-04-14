@@ -29,6 +29,7 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
+    background-color: rgb(249, 249, 249);
 }
 
 .banner {
@@ -83,11 +84,11 @@ body {
 form {
     display: grid;
     grid-template-columns: repeat(2, 25vw);
-    grid-template-rows: repeat(3, 8vh);
+    grid-template-rows: repeat(3, 7.3vh);
     padding: 4vh 0;
     font: normal 600 1rem 'Sarala';
     color: rgb(98, 98, 98);
-    border: 1px inset black;
+    background-color: white;
 }
 
 .form-title {
