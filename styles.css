@@ -130,6 +130,14 @@ input {
     color: rgb(71, 71, 71);
 }
 
+.hyper-text {
+    text-decoration: none;
+}
+
+a.hyper-text:link{
+    color: rgb(177, 124, 92);
+}
+
 .page-text, .page-text-2, .form-title,
 .input, .form-button, .last-text {
     margin-left: 3vw;
