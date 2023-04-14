@@ -81,16 +81,26 @@ body {
 }
 
 form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2vh;
     font: normal 600 1rem 'Sarala';
     color: rgb(98, 98, 98);
     border: 1px inset black;
 }
 
 .form-title {
-    margin: 2vh 0 2vh 0;
+    grid-column: 1 / span 2;
     font: normal 600 2rem 'Sarala';
     color: rgb(71, 71, 71);
 }
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-button {
     width: 15vw;
     padding: 1vh;
