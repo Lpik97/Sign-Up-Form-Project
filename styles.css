@@ -1,3 +1,21 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 @font-face {
     font-family: 'Sarala', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     src: url(Sarala/Sarala-Regular.ttf);
@@ -16,7 +34,6 @@ body {
 .banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 35%;
     height: 100%;
@@ -28,9 +45,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     gap: .5vw;
     width: 100%;
-    height: 25%;
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -44,17 +61,14 @@ body {
 }
 
 .banner-footer {
-    position: absolute;
-    bottom: 0;
     color: white;
 }
 
 .page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 50%;
-    padding: 0 2.5vw;
+    gap: 5vh;
 }
 
 .page-text {
@@ -63,34 +77,24 @@ body {
 }
 
 .page-text-2 {
-    position: absolute;
-    top: 35vh;
     font: normal 700 2rem 'Sarala';
-}
-
-.form-border {
-    position: absolute;
-    top: 46.1vh;
-    left: 27.1vw;
-    width: 72.8vw;
-    height: 20vh;
-    border: 1px inset rgb(0, 0, 0);
 }
 
 form {
     font: normal 600 1rem 'Sarala';
     color: rgb(98, 98, 98);
+    border: 1px inset black;
 }
 
 .form-title {
-    font: normal 600 1.5rem 'Sarala';
-    color: black;
+    margin: 2vh 0 2vh 0;
+    font: normal 600 2rem 'Sarala';
+    color: rgb(71, 71, 71);
 }
 
 .form-button {
-    position: absolute;
-    padding: .5vh 1.2vw;
-    top: 67.5vh;
+    width: 15vw;
+    padding: 1vh;
     font: normal 600 1.5rem 'Sarala';
     border: none;
     border-radius: 10px;
@@ -100,5 +104,11 @@ form {
 
 .last-text {
     font: normal 500 1.5rem 'Sarala';
-    color: rgb(71, 71, 71);  
+    color: rgb(71, 71, 71);
+}
+
+.page-text, .page-text-2, .form-title,
+.names, .email-and-phone-number, 
+.passwords, .form-button, .last-text {
+    margin-left: 3vw;
 }
