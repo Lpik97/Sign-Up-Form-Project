@@ -82,9 +82,8 @@ body {
 
 form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 2vh;
+    grid-template-columns: repeat(2, 25vw);
+    grid-template-rows: repeat(3, 8vh);
     padding: 4vh 0;
     font: normal 600 1rem 'Sarala';
     color: rgb(98, 98, 98);
