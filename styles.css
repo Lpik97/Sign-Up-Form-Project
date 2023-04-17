@@ -68,7 +68,7 @@ body {
 .page {
     display: flex;
     flex-direction: column;
-    height: 50%;
+    height: 65%;
     gap: 5vh;
 }
 
@@ -89,15 +89,15 @@ form {
     font: normal 600 1rem 'Sarala';
     color: rgb(98, 98, 98);
     background-color: white;
-    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.25);
-    -webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, .25);
 }
 
 .form-title {
     grid-column: 1 / span 2;
     font: normal 600 2rem 'Sarala';
-    color: rgb(71, 71, 71);
+    color: rgb(50, 50, 50);
 }
 
 .input {
@@ -111,7 +111,7 @@ input {
     height: 3vh;
     width: 15vw;
     border: 1px solid rgb(215, 215, 215);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 input:focus {
@@ -124,7 +124,7 @@ input:focus {
 
 .message {
     margin: 1vh;
-    color: rgb(250, 44, 44, 0.8);
+    color: rgb(250, 44, 44, .8);
 }
 
 .wrong-password {
@@ -140,10 +140,10 @@ input:focus {
     border-radius: 10px;
     color: white;
     background-color: rgb(177, 124, 92);
-    box-shadow: 0px 5px 6px -1px rgba(0,0,0,0.25);
-    -webkit-box-shadow: 0px 5px 6px -1px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 5px 6px -1px rgba(0,0,0,0.25);
-    transition: background-color .5s ease-in-out;
+    box-shadow: 0px 5px 6px -1px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0px 5px 6px -1px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0px 5px 6px -1px rgba(0, 0, 0, .25);
+    transition: background-color .2s ease-in-out;
 }
 
 .form-button:hover {
