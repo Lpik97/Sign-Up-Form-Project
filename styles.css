@@ -121,6 +121,11 @@ input:focus {
     -moz-box-shadow: 1px 5px 4px 0px rgb(180, 138, 113);
 }
 
+.message {
+    margin: 1vh;
+    color: rgb(250, 44, 44, 0.8);
+}
+
 .form-button {
     width: 15vw;
     padding: 1vh;
@@ -158,6 +163,6 @@ a.hyper-text:hover {
 }
 
 .page-text, .page-text-2, .form-title,
-.input, .form-button, .last-text {
+.input, .form-button, .message, .last-text {
     margin-left: 3vw;
 }
